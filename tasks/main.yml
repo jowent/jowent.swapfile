@@ -1,3 +1,5 @@
+---
+
 - name: set swap_file variable
   set_fact:
     swap_file: /mnt/{{ swap_space }}.swap
